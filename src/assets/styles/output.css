@@ -548,6 +548,18 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -570,6 +582,10 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-\[100px\] {
@@ -605,6 +621,11 @@ video {
 .bg-\[\#F1F3FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 243 255 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .px-20 {
