@@ -3,9 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily:{
-      'display': ['Helvetica Neue'],
+      'display': ['Helvetica'],
     },
-    extend: {},
+    extend: {
+      listStyleImage: {
+        checkmark: 'url("/src/assets/images/Group 53 (3).png")',
+      },
+    },
   },
   plugins: [],
 }
