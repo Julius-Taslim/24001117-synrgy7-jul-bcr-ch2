@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./assets/styles/output.css" />
     <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/flickity/css/flickity.css" media="screen">
+</head>
+<title>Document</title>
 </head>
 
 <body class="font-display">
@@ -149,8 +151,33 @@
     <section id="testimonial" class="flex flex-col sm:mx-2 md:mx-20 items-center my-8 px-2">
         <h1 class="text-2xl font-bold my-2">Testimonial</h1>
         <p class="text-center font-light text-sm">Berbagai review positif dari para pelanggan kami</p>
-        <div class="min-h-[200px]">
-            <!--Carousel-->
+        <div class="h-[auto] w-[90vw] md:w-[100vw] md:mx-4">
+            <div class="carousel *:rounded-xl " data-flickity='{ "wrapAround": true, "pageDots" : false}'>
+                <div class="carousel-cell md:w-[66%] flex flex-col md:flex-row justify-center items-center">
+                    <img src="assets/images/img_photo (1).png">
+                    <div class="flex flex-col justify-center items-center md:items-start md:p-8 ">
+                        <img src="assets/images/Rate (1).png" class="w-[80px]">
+                        <p class="font-light text-sm py-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A enim eius, tempore soluta in autem quasi optio quam quisquam, odio neque vel dolorem expedita ipsum iusto officiis. Doloremque, quia unde!"</p>
+                        <p class="font-normal text-sm">John Dee 32, Bromo</p>
+                    </div>
+                </div>
+                <div class="carousel-cell md:w-[66%] flex flex-col md:flex-row justify-center items-center">
+                    <img src="assets/images/img_photo (1).png">
+                    <div class="flex flex-col justify-center items-center md:items-start md:p-8 ">
+                        <img src="assets/images/Rate (1).png" class="w-[80px]">
+                        <p class="font-light text-sm py-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A enim eius, tempore soluta in autem quasi optio quam quisquam, odio neque vel dolorem expedita ipsum iusto officiis. Doloremque, quia unde!"</p>
+                        <p class="font-normal text-sm">John Dee 32, Bromo</p>
+                    </div>
+                </div>
+                <div class="carousel-cell md:w-[66%] flex flex-col md:flex-row justify-center items-center">
+                    <img src="assets/images/img_photo (1).png">
+                    <div class="flex flex-col justify-center items-center py-2 md:items-start md:py-8">
+                        <img src="assets/images/Rate (1).png" class="w-[80px]">
+                        <p class="font-light text-sm py-2">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A enim eius, tempore soluta in autem quasi optio quam quisquam, odio neque vel dolorem expedita ipsum iusto officiis. Doloremque, quia unde!"</p>
+                        <p class="font-normal text-sm">John Dee 32, Bromo</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--/Testimonial-->
@@ -308,6 +335,7 @@
     </footer>
     <!--/Footer-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="../node_modules/flickity/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
